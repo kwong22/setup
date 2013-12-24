@@ -34,6 +34,9 @@ sudo add-apt-repository -y ppa:cassou/emacs
 sudo apt-get -qq update
 sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
 
+# Install screen
+wget raw.github.com/startup-class/dotfiles/master/.screenrc -O .screenrc
+
 # Install tmux
 # Instructions from sourceforge.net/p/tmux/tmux-code/ci/master/tree/README
 git clone git://git.code.sf.net/p/tmux/tmux-code tmux
