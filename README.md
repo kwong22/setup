@@ -8,6 +8,7 @@ follows:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/kwong22/setup.git
+chmod +x setup/setup.sh
 ./setup/setup.sh   
 ```
 
